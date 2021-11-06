@@ -6,126 +6,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae: Jose Rodriguez Galeana</title>
+    <!-- Se enlazan los estilos CSS de manera Externa-->
+    
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Se enlazan los estilos CSS mediante el metodo Import-->
+    <style>     
+        /*@import"estilos.css";*/
+    </style>
+
+<!-- codigo CSS de manera Interna-->
+    <style>
+        .contenedor-experiencia {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
 
 <body>
-    <ul>
-        <li><a href="">Experiencia Profecional</a></li>
-        <li><a href="">Habilidades y conocimientos</a></li>
-        <li><a href="">Educacion</a></li>
-        <li><a href="">Perfiles Sociales</a></li>
-        <li><a href="">Contactar</a></li>
-    </ul>
-    <p>
-    <h1>Jose Luis Rodriguez Galeana</h1>
-    </p>
-    <p>Me especializo en tareas como el trabajo en equipo, solucion de problemas que se me asignen en la empresa en
-        areas del desarrollo informatico
-        propio de la empresa, me profecionalizo en areas de desarrollo web, tengo grandes habilidades en manejo de bases
-        de datos, tengo conocimiento en JAVA, C#, C++, SQL,HTML, CSS, VISUAL STUDIO.NET, etc.
-    <p>
-        Pero creo que es mejor que me conozcas en <a href="">mi video de presentacion</a>
-    </p>
-    <hr>
-    <h2>Experiencia profesional</h2>
-    <table border=0 cellpadding=8 cellspacing=8>
-        <tr>
-            <th>Empresa/Organizacion</th>
-            <th>Cargo</th>
-            <th>Localizacion</th>
-            <th>Desde-hasta</th>
-        </tr>
-        <tr>
-            <td>Chiquita</td>
-            <td>Asistente de TI</td>
-            <td>Pococci</td>
-            <td>2008-2012</td>
-        </tr>
-        <tr>
-            <td>TRAESA S.A</td>
-            <td>Soporte TI</td>
-            <td>Limon</td>
-            <td>2012-2016</td>
-        </tr>
-        <tr>
-            <td>Almacenes el colono</td>
-            <td>Soporte tecnico</td>
-            <td>Pococci</td>
-            <td>2016-2019</td>
-        </tr>
-        <tr>
-            <td>Frutilight S.A</td>
-            <td>Soporte TI</td>
-            <td>Siquirres</td>
-            <td>2019-Actualidad</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Habilidades y conocimientos</h2>
-    <ul>
-        <li><strong>Desarrollo web: </strong>HTML5, CSS3, JavaScript, Python+Django, LESS & SASS, PHP, SEO, Node.js,
-            MySQL, AngularJS, jQuery, Bootstrap, Dojo, responsive design, WordPress, usabilidad, CoffeScript, etc.</li>
-        <li><strong>Analisis Web: </strong>Google Analytics, Mixpanel, segment.io, etc.</li>
-        <li><strong>Aplicaciones Mobiles: </strong>Phonegap</li>
-        <li><strong>Mantenimiento de equipos de computo: </strong>Mnatenimiento general, soporte de averias,
-            diagnostico, instalacion de programas, respaldos </li>
-    </ul>
-    <hr>
-    <h2>Educacion</h2>
-    <table border=0 cellpadding=8 cellspacing=8>
-        <tr>
-            <th>Titulo</th>
-            <th>Entidad</th>
-            <th>Promocion</th>
+    <header class="cabecera">
+        <nav>
+            <a class="link" href="http://127.0.0.1:5500/Curriculo.html#experiencia">Experiencia Profecional</a>
+            <a class="link" href="http://127.0.0.1:5500/Curriculo.html#abilidades">Habilidades y conocimientos</a>
+            <a class="link" href="http://127.0.0.1:5500/Curriculo.html#educacion">Educacion</a>
+            <a class="link" href="http://127.0.0.1:5500/Curriculo.html#perfiles">Perfiles Sociales</a>
+            <a class="link" href="http://127.0.0.1:5500/Curriculo.html#contactos">Contactar</a>
+        </nav>
+    </header>
 
-        </tr>
-        <tr>
-            <td>Bachiller en educacion media</td>
-            <td>Colegio nocturno de Pococci</td>
-            <td>2010</td>
+    <header class="header" id="inicio">
+        <div class="contenedor head">
 
-        </tr>
-        <tr>
-            <td>Tecnico en reparacion de computadoras</td>
-            <td>INA</td>
-            <td>2011</td>
+            <!-- Se aplica estilo CSS de manera inline-->
+            <h1 style="font-size: 60px;">Jose Luis Rodriguez Galeana</h1>
 
-        </tr>
+            <p class="parrafo">Me especializo en tareas como el trabajo en equipo, solucion de problemas que se me
+                asignen en la empresa
+                en
+                areas del desarrollo informatico
+                propio de la empresa, me profecionalizo en areas de desarrollo web, tengo grandes habilidades en manejo
+                de bases
+                de datos, tengo conocimiento en JAVA, C#, C++, SQL,HTML, CSS, VISUAL STUDIO.NET, etc.
+        </div>
+    </header>
 
-    </table>
-    <hr>
-    <h2>Perfiles Sociales</h2>
-    <p>Tambien puedes contactarme en:</p>
-    <ul>
-        <li><a href="https://www.google.com/intl/es/gmail/about/">Correo</a></li>
-        <li><a href="https://github.com/">Gidhub</a></li>
-        <li><a href="https://es-la.facebook.com/">Facebook</a></li>
-        <li><a href="https://www.youtube.com/?hl=es">Youtube</a></li>
-        <li><a href="https://www.google.com/?hl=es">Google</a></li>
-    </ul>
-    <hr>
-    <h2>Contactar</h2>
+    <main>
+        <section class="Experiencia contenedor" id="experiencia">
+            <h2 class="subtitulo">Experiencia profesional</h2>
+            <!--Se enlazan los estilos de manera interna-->
+            <div class="contenedor-experiencia">
+                <img src="img/experiencia.svg" alt="">
+                <table border=0 cellpadding=8 cellspacing=8>
+                    <tr>
+                        <th>Empresa/Organizacion</th>
+                        <th>Cargo</th>
+                        <th>Localizacion</th>
+                        <th>Desde-hasta</th>
+                    </tr>
+                    <tr>
+                        <td>Chiquita</td>
+                        <td>Asistente de TI</td>
+                        <td>Pococci</td>
+                        <td>2008-2012</td>
+                    </tr>
+                    <tr>
+                        <td>TRAESA S.A</td>
+                        <td>Soporte TI</td>
+                        <td>Limon</td>
+                        <td>2012-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Almacenes el colono</td>
+                        <td>Soporte tecnico</td>
+                        <td>Pococci</td>
+                        <td>2016-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Frutilight S.A</td>
+                        <td>Soporte TI</td>
+                        <td>Siquirres</td>
+                        <td>2019-Actualidad</td>
+                    </tr>
+                </table>
 
-    <form>
-        <LABel>Para Correo:</LABel>
-        <input type="email">
-        <label>Tematica:</label>
-        <select id="topic">
-            <option>---Elije un tema---</option>
-            <option>Consulta</option>
-            <option>Propuesta</option>
-            <option>Reporte</option>
-            <option>Otro</option>
-        </select>
-        <label for="subject">Asunto:</label>
-        <input type="text">
-        <label for="body">Comentarios:</label>
-        <textarea id="body"></textarea>
-        <button type="submit">Enviar</button>
-    </form>
-    <hr>
-    <P></P>
-    <font color="blue">Esta pagina es creada por Jose Luis Rodriguez Galeana</font>
+            </div>
+        </section>
+        <section class="abilidades" id="abilidades">
+            <div class="contenedor">
+                <h2 class="subtitulo">Habilidades y conocimientos</h2>
+                <div class="contenedor-abilidades">
+                    <ul>
+                        <li><strong>Desarrollo web: </strong>HTML5, CSS3, JavaScript, Python+Django, LESS & SASS, PHP,
+                            SEO,
+                            Node.js,
+                            MySQL, AngularJS, jQuery, Bootstrap, Dojo, responsive design, WordPress, usabilidad,
+                            CoffeScript, etc.
+                        </li>
+                        <li><strong>Analisis Web: </strong>Google Analytics, Mixpanel, segment.io, etc.</li>
+                        <li><strong>Aplicaciones Mobiles: </strong>Phonegap</li>
+                        <li><strong>Mantenimiento de equipos de computo: </strong>Mantenimiento general, soporte de
+                            averias,
+                            diagnostico, instalacion de programas, respaldos </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor" id="educacion">
+            <h2 class="subtitulo">Educacion</h2>
+            <div class="cont-educacion">
+                <table border=0 cellpadding=8 cellspacing=8>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Entidad</th>
+                        <th>Promocion</th>
+                    </tr>
+                    <tr>
+                        <td>Bachiller en educacion media</td>
+                        <td>Colegio nocturno de Pococci</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td>Tecnico en reparacion de computadoras</td>
+                        <td>INA</td>
+                        <td>2011</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+        <section class="perfiles" id="perfiles">
+            <div class="contenedor">
+                <h2 class="subtitulo">Perfiles Sociales</h2>
+                <h2 class="subtitulo1">Tambien puedes contactarme en:</h2>
+                <div class="cont-perfiles">
+                    <ul>
+                        <div>
+                            <i class='bx bx-mail-send'><a href="https://www.google.com/intl/es/gmail/about/">
+                                    Correo</a></i>
+                        </div>
+                        <div>
+                            <i class='bx bxl-google'><a href="https://www.google.com/?hl=es">Google</a></i>
+                        </div>
+                        <div>
+                            <i class='bx bxl-github'><a href="https://github.com/">Gidhub</a></i>
+                        </div>
+                        <div>
+                            <i class='bx bxl-facebook'><a href="https://es-la.facebook.com/">Facebook</a></i>
+                        </div>
+                        <div>
+                            <i class='bx bxl-youtube'><a href="https://www.youtube.com/?hl=es">Youtube</a></i>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer id="contactos">
+            <h2 class="subtitulo">Me puedes contactar</h2>
+            <div class="contenedor contactos-content">
+                <form>
+                    <LABel>Para Correo:</LABel>
+                    <input type="email" placeholder="Correo">
+                    <label>Tematica:</label>
+                    <select id="topic">
+                        <option>---Elije un tema---</option>
+                        <option>Consulta</option>
+                        <option>Propuesta</option>
+                        <option>Reporte</option>
+                        <option>Otro</option>
+                    </select>
+                    <label for="subject">Asunto:</label>
+                    <input type="text">
+                    <label for="body">Comentarios:</label>
+                    <textarea id="body"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>

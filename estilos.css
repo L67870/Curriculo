@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;     
+    margin: auto;
+    padding: 60px 0;
+}
+
+
+.header{
+    height: 90vh;
+    /* 02 */
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 50%), url(img/ExperianciaProf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(12, 2, 2);
+}
+
+.cabecera{
+    display: flex;
+    height: 50px;
+    background-color:rgb(190, 190, 197);
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+   
+}
+
+.link{
+    font-weight: 850;
+    padding: 80px;
+    padding-right: 40px;
+    align-content: center;
+    flex-direction:row;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(35, 53, 53);
+}
+
+a:hover{
+    color: rgb(121, 78, 221);
+}
+.perfil{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.subtitulo{
+    color: #9f8ad0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.subtitulo1{
+    color: #0f071f;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contenedor-experiencia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-experiencia img{
+    width: 10%;
+}
+
+.abilidades{
+    background: #f2f2f2;
+}
+
+.contenedor-abilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+.cont-educacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.perfiles{
+    background: #cebcbc;
+}
+
+.cont-perfiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+footer{
+    background: #e8e5f0;
+    padding-bottom: 0.1px;
+}
+
+.contactos-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
